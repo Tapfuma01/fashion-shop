@@ -1,0 +1,211 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+h1 {
+  font-family: 'Source Sans Pro' bold 36px;
+
+}
+p {
+  color: #ffff;
+  font-size: 15px;
+}
+
+.fashion {
+  font-family: Dosis;
+  font-size: 50px;
+  font-weight: normal;
+  font-style: bold;
+  font-stretch: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffff;
+  font-family: 'Source Sans Pro'
+
+
+}
+.header {
+  height: 51px;
+  padding-top: 18px;
+  padding-bottom: 22px;
+  text-align: center;
+  color: white;
+  background: black;
+  font-size: 12px;
+  font-family:'Source Sans Pro'
+}
+xs
+img {
+  opacity: 1;
+  filter: alpha(opacity=50);
+}
+.title {
+  text-align: center;
+  margin-top: 15%;
+}
+
+  
+.container{
+    text-align: center;
+    margin:51px;
+  }
+  .topnav {
+    position: relative;
+    overflow: hidden;
+    list-style:none ;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: -60%;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+  
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    color: white;
+    width: 117px;
+    height: 21px;
+    font-family: Dosis;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color:white;
+  }
+  
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-75%, -50%);
+  }
+  
+  .topnav-right {
+    float: right;
+    top: 25%;
+    left: 75%;
+  }
+  
+  /* Responsive navigation menu (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+    
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+
+    .home {
+      width: 36px;
+      height: 11px;
+      font-family: Dosis;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.75px;
+      text-align: left;
+      color: var(--white-five);
+    }
+    .shop {
+      width: 34px;
+      height: 11px;
+      font-family: Dosis;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.75px;
+      text-align: left;
+      color: var(--white-five);
+    }
+    .about {
+      width: 44px;
+      height: 11px;
+      font-family: Dosis;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.75px;
+      text-align: left;
+      color: var(--white-five);
+    }
+    .Blog {
+      width: 32px;
+      height: 11px;
+      font-family: Dosis;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.75px;
+      text-align: left;
+      color: var(--white-five);
+    }
+    .contact {
+      width: 66px;
+      height: 11px;
+      font-family: Dosis;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.75px;
+      text-align: left;
+      color: var(--white-five);
+    }
+    .lookbook {
+      width: 77px;
+      height: 11px;
+      font-family: Dosis;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.75px;
+      text-align: left;
+      color: var(--white-five);
+    }
+    
+
+    
+    .container {
+      width: 100%;
+      height: 945px;
+      background-color: var(--black-three)
+
+    }
+  }
+ 
