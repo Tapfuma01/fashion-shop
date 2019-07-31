@@ -6,11 +6,19 @@ body {
   }
 h1 {
   font-family: 'Source Sans Pro' bold 36px;
-
 }
+h2 {
+  text-align: center;
+  font-family: 'Source Sans Pro' bold 25px;
+  color:black;
+  padding-top: 30%;
+  padding-bottom: 96px;
+}
+
 p {
   color: #ffff;
   font-size: 15px;
+  text-align: center;
 }
 
 .fashion {
@@ -119,7 +127,12 @@ img {
       left: 0;
       transform: none;
     }
-
+    
+    
+    
+    
+    
+    
     .home {
       width: 36px;
       height: 11px;
@@ -207,5 +220,14 @@ img {
       background-color: var(--black-three)
 
     }
+   .page-footer {
+    background-color: black;
+   }
+    
+   
+
+
+   }
+
   }
  
