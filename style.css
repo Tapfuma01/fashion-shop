@@ -21,6 +21,13 @@ h3 {
   padding-top:60px;
   padding-bottom:92px;
 }
+h4{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 92px;
+  color:black;
+  font-family: 'Source Sans Pro' bold 25px;
+}
 
 p {
   color: #ffff;
@@ -61,6 +68,12 @@ img {
   text-align: center;
   margin-top: 15%;
 }
+.title2 {
+  text-align: center;
+  margin-top: -45%;
+  font-size: 48px;
+}
+
 
   
 .container{
