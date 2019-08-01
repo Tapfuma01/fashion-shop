@@ -57,20 +57,28 @@ p {
   color: white;
   background: black;
   font-size: 12px;
-  font-family:'Source Sans Pro'
+  font-family:'Source Sans Pro';
+  
+}
+.shipping {
+  text-align: center;
+  color: white;
+  margin-right: 10%;
 }
 .box {
-  width: 100px;
+  width: 50px;
   height: 30px;
   font-size: 12px;
-  color:black;
-  background-color:blueviolet;
-  border-radius: 5px;
+  color:white;
+  background-color:black;
   float: left;
-  padding-left: 50%;
+  margin:auto;
+  text-align: center;
+  padding-top:18px;
+  padding-bottom:20px
  }
-select.box {
-  float:left;
+
+  
 
 }
  img {
