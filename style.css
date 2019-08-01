@@ -59,8 +59,21 @@ p {
   font-size: 12px;
   font-family:'Source Sans Pro'
 }
-xs
-img {
+.box {
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  color:black;
+  background-color:blueviolet;
+  border-radius: 5px;
+  float: left;
+  padding-left: 50%;
+ }
+select.box {
+  float:left;
+
+}
+ img {
   opacity: 1;
   filter: alpha(opacity=50);
 }
@@ -242,10 +255,13 @@ img {
     }
    .page-footer {
     background-color: black;
+    color: #ddd;
+    
    }
+   
     
 
-   }
+
 
   }
  
