@@ -49,11 +49,11 @@ p {
   text-align: center;
   color: #ffff;
   font-family: 'Source Sans Pro';
-  margin-top: 12%;
-  
-
+  margin-top: -33%;
 }
-
+.online {
+  color: #fff;
+}
 
 .header {
   height: 51px;
@@ -106,34 +106,23 @@ p {
    background-color: black;
    padding-right: 150px;
  }
- .btn {
-  position: absolute;
+ .button {
+   text-align: center;
+   border-radius: 50%;
+   margin-top: 6%;
   
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color:rgb(174, 190, 22);
-  color: white;
-  font-size: 15px;
-  padding: 25px px;
-  border: 5px;
-  cursor: pointer;
-  border-radius: 20px;
-  text-align: center;
+  
 }
 .btn:hover {
   background-color: black;
+ 
 }
-.icon {
-position: absolute;
-top: 90%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-text-align: center;
-color:white;
-font-size: 50px;
+.pointer {
+color: #ffff;
+font-size: 4rem;
+margin-top: 4rem;
+}
 
-}
 .title {
   text-align: center;
   margin-top: 15%;
@@ -165,9 +154,11 @@ font-size: 50px;
    overflow:hidden;
    text-align: center;
    z-index: 6;
-   background-color: grey;
-   margin:auto;
-   margin-top:-50%;
+   margin:0px;
+   margin-top :-50%;
+   position: fixed;
+   padding: 0px;
+   left: 10%;
  }
  
  .topbar_nav a {
@@ -225,7 +216,7 @@ font-size: 50px;
      display: block;
      text-align: center;
    }
- 
+    .navbar_bran
     
     .home {
       width: 36px;
@@ -311,12 +302,8 @@ font-size: 50px;
     .container {
       width: 100%;
       height: 945px;
-      background-color: var(--black-three)
+      background-color: var(--black-three);
 
-    }
-   .page-footer {
-    background-color: black;
-    color: #ddd;
     
    }
    .blazer {
