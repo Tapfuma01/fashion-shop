@@ -12,6 +12,12 @@
    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
     <!--kit font-->
     <script src="https://kit.fontawesome.com/4a8f7a95ab.js"></script>
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <title>NATEB Clothing Shop</title>
@@ -19,24 +25,26 @@
     <body>
     
       <div class="header">
-          <select class="box">
+          <select class="language">
               <option selected>EN</option>
               <option>fr-CA</option>
               <option>XH</option>
               <option>ZU</option>
           </select>
 
-          <select class="box">
+          <select class="currency">
                 <option selected>ZAR</option>
                 <option>US</option>
                 <option>GBR</option>
                 <option>YEN</option>
           </select>
-
-            <i class="fab fa-facebook-f fa-15px"></i>
-            <i class="fab fa-google-plus-g fa-15px"></i>
-            <i class="fab fa-twitter fa-15px"></i>
-            <i class="fab fa-pinterest-p fa-15px"></i>
+           
+          <article class="favcon">
+              <i class="fab fa-facebook-f fa-15px"></i>
+              <i class="fab fa-google-plus-g fa-15px"></i>
+              <i class="fab fa-twitter fa-15px"></i>
+              <i class="fab fa-pinterest-p fa-15px"></i> 
+          </article>
 
               <p class="shipping">FREE SHIPPING FOR STANDARD ORDER OVER R100</p>
              
@@ -44,12 +52,16 @@
         
       
     <section>
-      <img src="images/bonang.jpeg" alt="bonang" width="100%" height="auto">
-    </section>         
-
-<!-- Top navigation -->
-      <div class=container>
-        <div class="topnav">
+      <img class="img-fluid" src="images/bonang.jpeg" alt="bonang" width="100%" height="768">  
+           
+        <button class="btn btn-rounded btn-deep-orange">LOOK BOOK<i class="fas fa-he pl-1"></i></button>
+        <div class="icon">
+          <i class="fas fa-angle-down"></i>
+         </div>  
+      </section>   
+                            <!-- Top navigation -->
+  <div class=container>
+      <div class="topnav">
     
           <a href="#home" class="home">HOME</a>
           <a href="#shop" class="shop">SHOP</a>
@@ -63,22 +75,22 @@
     
 <section class="title">
   <div>
-<h1 class="fashion">AFRICANA CLOTHING</h1>
-<p class= "onlineshop">Africa's best online clothing,One order is the beginning of Thousand orders. </p>
+    <h1 class="fashion">AFRICANA CLOTHING</h1>
+        <p class= "onlineshop">Africa's best online clothing,One order is the beginning of Thousand orders. </p>
   </div>  
 </section>
-<h1></h1>
 
 <section>
-<h2>FEATURED PRODUCT</h2>
+  <h2>FEATURED PRODUCT</h2>
 <!-- Grid row -->
-<div class="row">
+  <div class="row">
 
   <!-- Grid column -->
-  <div class="col-lg-4 col-md-12 mb-3",class="view overlay zoom">
+  <div class="col-lg-4 col-md-12 mb-3">
 
-    <img class="images" src="https://cdn.shopify.com/s/files/1/2026/3639/products/product-image-669929325_1024x1024.jpg?v=1536074832"
+    <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/2026/3639/products/product-image-669929325_1024x1024.jpg?v=1536074832"
       alt="coloful blazer" style="width:370px;height:360px;">
+      <p class= "blazer">Buganda blazer</p>
 
   </div>
   <!-- Grid column -->
@@ -86,7 +98,7 @@
   <!-- Grid column -->
   <div class="col-lg-4 col-md-6 mb-3">
 
-    <img class="images" src="https://images-na.ssl-images-amazon.com/images/I/81hRVDaVP5L._UX342_.jpg"
+    <img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/81hRVDaVP5L._UX342_.jpg"
       alt="yellow and red dress" style="width:370px;height:360px;">
 
   </div>
@@ -94,7 +106,7 @@
   <!-- Grid column -->
   <div class="col-lg-4 col-md-6 mb-3">
 
-    <img class="images" src="https://cdn.shopify.com/s/files/1/1959/6529/products/product-image-739798507_480x480.jpg?v=1534421184"
+    <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/1959/6529/products/product-image-739798507_480x480.jpg?v=1534421184"
       alt="dresses2" style="width:370px;height:360px;">
 
   </div>
@@ -106,18 +118,18 @@
   
       <div class="row">
         <div class="col-md-4">
-            <img src="images/bracelets1.jpg" alt="bracelets" style="width:500px;height:373px; ">
+            <img class="img-fluid" src="images/bracelets1.jpg" alt="bracelets" style="width:500px;height:373px; ">
         </div>
-        <div class="col-md-4">
-            <img src="images/sandels.jpg" alt="sandels" style="width:500px;height:373px;margin-left:150px;" >
-        </div>
+          <div class="col-md-4">
+            <img class="img-fluid" src="images/sandels.jpg" alt="sandels" style="width:500px;height:373px;margin-left:150px;" >
+          </div>
        
       </div>
     </div>
 </section>
 
 <section>
-    <img src="images/womenscarfs.jpg" alt="variousproducts" width="100%" height="auto">
+    <img class="img-fluid" src="images/womenscarfs.jpg" alt="variousproducts" width="100%" height="auto">
            
 </section>
 
@@ -131,7 +143,7 @@
 <div>
 
   <h2 class="BLOGG">OUR BLOG</h2> 
-   <img src="https://cdn.pixabay.com/photo/2015/06/16/23/38/africa-811866_960_720.jpg" alt="africanwoman" style="width:587;height:485px">
+   <img class="img-fluid" src="https://images.pexels.com/photos/667200/pexels-photo-667200.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="africanwoman" style="width:587;height:485px">
       <p>Our shop brings the best of the best of </p>
 </div>
   
