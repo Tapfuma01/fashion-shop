@@ -15,6 +15,7 @@ h2 {
   color:black;
   padding-top: 30%;
   padding-bottom: 96px;
+  margin-top: 100%;
 }
 h3 {
   text-align: center;
@@ -48,26 +49,11 @@ p {
   text-align: center;
   color: #ffff;
   font-family: 'Source Sans Pro';
-  margin-top: -37%;
+  margin-top: 12%;
   
 
 }
-* {
-  margin: 0px;
-  padding: 0px;
-}
-nav {
-  background-color: black;
-  position: relative;
-  overflow: hidden;
-  list-style:none ;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-nav a {
-    text-align: center;
-}
+
 
 .header {
   height: 51px;
@@ -79,10 +65,6 @@ nav a {
   font-size: 12px;
   font-family:'Source Sans Pro';
   
-}
-
-#myNavbar{
-  color:yellow;
 }
 
 
@@ -180,10 +162,12 @@ font-size: 50px;
  } 
  
  .topbar_nav {
-   overflow: hidden;
-   background-color: #363841;
+   overflow:hidden;
    text-align: center;
    z-index: 6;
+   background-color: grey;
+   margin:auto;
+   margin-top:-50%;
  }
  
  .topbar_nav a {
