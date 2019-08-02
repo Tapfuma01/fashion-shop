@@ -1,0 +1,13 @@
+                            <!-- Top navigation -->
+  <div class=container>
+      <div class="topnav">
+    
+          <a href="#home" class="home">HOME</a>
+          <a href="#shop" class="shop">SHOP</a>
+          <a href="#about" class="about">ABOUT</a>
+          <a href="#home" class="active">NATEB</a>
+          <a href="#blog" class="blog">BLOG</a>
+          <a href="#contact" class="contact">CONTACT</a>
+          <a href="#lookbook" class="lookbook">LOOKBOOK</a>
+      </div>
+  </div>
