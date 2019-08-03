@@ -15,7 +15,7 @@ h2 {
   color:black;
   padding-top: 30%;
   padding-bottom: 96px;
-  margin-top: 100%;
+  margin-top: 50%;
 }
 h3 {
   text-align: center;
@@ -24,14 +24,7 @@ h3 {
   padding-top:60px;
   padding-bottom:92px;
 }
-h4{
-  text-align: left;
-  padding-top: 100px;
-  padding-bottom: 92px;
-  color:black;
-  font-family: 'Source Sans Pro' bold 25px;
-  
-}
+
 
 p {
   color:black;
@@ -302,6 +295,7 @@ margin-top: 4rem;
       float: left;
       padding: 10px;
       text-align:center;
+      margin-right: 10%;
       }
       .homeimg2 {
       width:25%;
@@ -312,7 +306,7 @@ margin-top: 4rem;
       
       }
     .proimage {
-      margin-top: 25%;
+      margin-top: 10%;
     }
     
       .container {
