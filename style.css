@@ -63,35 +63,19 @@ p {
   padding-top: 18px;
   padding-bottom: 22px;
   text-align: center;
-  color:gray;
-  background:#ffff;
+  color:#ffff;
+  background:black;
   font-size: 12px;
   font-family:'Source Sans Pro';
   
 }
-.header2 {
-  height: 51px;
-  padding-top: 18px;
-  padding-bottom: 22px;
-  text-align: center;
-  color: whi;
-  background: black;
-  font-size: 12px;
-  font-family:'Source Sans Pro';
-  
-}
-
 
 .header_text {
   text-align: center;
   color: white;
-  margin-right: 10%;
+
 }
-.header_text2 {
-  text-align: center;
-  color: gray;
-  margin-right: 10%;
-}
+
 .language{
   width: 50px;
   height: 30px;

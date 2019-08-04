@@ -1,0 +1,15 @@
+.header2 {
+    height: 51px;
+    padding-top: 18px;
+    padding-bottom: 22px;
+    text-align: center;
+    color: gray;
+    background:white;
+    font-size: 12px;
+    font-family:'Source Sans Pro';
+    
+  }
+  .header_text2 {
+    text-align: center;
+    color: gray;
+  }
