@@ -58,21 +58,27 @@ nav {
     float: none;
 }
 nav ul li:hover {
-    background-color:violet; {}
-
-.navbar.navbar-collapse{
-    text-align: center;
+    background-color:violet;
 }
+
 .navbar .navbar-brand {
   color: black;
   text-align: center;
   margin-right: 25%,
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: ". ." ". .";
+    
+
+
+
+    <div class="col">
+    <img src="images/pexels-photo2.jpeg" alt="AFRICAN Lion-Shoe" width="470px" height="470px">
+    <div class="col">
+            <img src="images/shoesblues.jpg" alt="LASER Blue-Sneakes" width="100px" height="100px">
+        <div class="col">
+                <img src="images/newstuff.jpg" alt="AFRICAN Lion-Shoe" width="100px" height="100px">
+        </div>
+    </div>
+  </div>
   }
 
   

@@ -12,6 +12,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+    <meta name="robots" content="noindex,follow" />
      <!--google font-->
    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
     <!--kit font-->
@@ -66,7 +69,7 @@
             
               <div class="collapse navbar-collapse" id="ftco-nav">
                 <ol class="navbar-nav nav ml-auto navbar-right">
-                    <li><a href="#home-section" class="nav-link"><span style=>HOme</span></a></li>
+                    <li><a href="#home-section" class="nav-link"><span style=>HOME</span></a></li>
                     <li ><a href="#shop-section" class="nav-link"><span>SHOP</span></a></li>
                     <li><a href="#about-section" class="nav-link"><span>ABOUT</span></a></li>
                     <li><a href="#blog-section" class="nav-link"><span>BLOG</span></a></li>
@@ -93,7 +96,9 @@
             <div class="row">
                     <div class="col">
                             <img src="images/brillantE.png " alt="AFRICAN Italiana" width="470px" height="470px">
-                            <div class="row">
+
+                            
+                             <div class="row">
                                     <div class="col-4">
                                             <img  src="images/men-shoes_.jpg" alt="AFRICANA Soil-shoe" width="100px" height="100px">
                                             
@@ -107,7 +112,79 @@
                                   </div>
                           </div>
               <div class="col">
-                2 of 2
+                    <div class="shopping-cart">
+                            <!-- Title -->
+                            <div class="title">
+                              Shopping Bag
+                            </div>
+                      
+                            <!-- Product #1 -->
+                            <div class="item">
+                              <div class="buttons">
+                                <span class="delete-btn"></span>
+                                <span class="like-btn"></span>
+                              </div>
+                      
+                              <div class="image">
+                                <img src="item-1.png" alt="" />
+                              </div>
+                      
+                              <div class="description">
+                                <span>Common Projects</span>
+                                <span>Bball High</span>
+                                <span>White</span>
+                              </div>
+                      
+                              <div class="quantity">
+                                <button class="plus-btn" type="button" name="button">
+                                  <img src="plus.svg" alt="" />
+                                </button>
+                                <input type="text" name="name" value="1">
+                                <button class="minus-btn" type="button" name="button">
+                                  <img src="minus.svg" alt="" />
+                                </button>
+                              </div>
+                      
+                              <div class="total-price">$549</div>
+                            </div>
+                      
+                            <script type="text/javascript">
+                                $('.minus-btn').on('click', function(e) {
+                                      e.preventDefault();
+                                      var $this = $(this);
+                                      var $input = $this.closest('div').find('input');
+                                      var value = parseInt($input.val());
+                          
+                                      if (value > 1) {
+                                          value = value - 1;
+                                      } else {
+                                          value = 0;
+                                      }
+                          
+                                  $input.val(value);
+                          
+                                  });
+                          
+                                  $('.plus-btn').on('click', function(e) {
+                                      e.preventDefault();
+                                      var $this = $(this);
+                                      var $input = $this.closest('div').find('input');
+                                      var value = parseInt($input.val());
+                          
+                                      if (value < 100) {
+                                        value = value + 1;
+                                      } else {
+                                          value =100;
+                                      }
+                          
+                                      $input.val(value);
+                                  });
+                          
+                                $('.like-btn').on('click', function() {
+                                  $(this).toggleClass('is-active');
+                                });
+                              </script>
+                    
 
               </div>
             </div>
@@ -118,3 +195,15 @@
               </div>
             </div>
           </div>
+
+
+          <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+
+
+ 
