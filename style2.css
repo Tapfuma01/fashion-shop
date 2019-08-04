@@ -3,8 +3,8 @@
     padding-top: 18px;
     padding-bottom: 22px;
     text-align: center;
-    color: gray;
-    background:white;
+    color: rgb(161, 159, 159);
+    background:rgb(223, 219, 219);
     font-size: 12px;
     font-family:'Source Sans Pro';
     
@@ -13,3 +13,5 @@
     text-align: center;
     color: gray;
   }
+
+  
