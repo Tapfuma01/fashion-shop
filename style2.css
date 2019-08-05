@@ -18,7 +18,16 @@ body{
 p{
     text-align: center,
 }
-
+.header-text {
+    width: 100%;
+    height: 25px;
+    background-color:white;
+    color:black;
+    margin:0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family:'Source Sans Pro';
+  }
 
 nav {
     overflow: hidden;
@@ -56,42 +65,10 @@ nav ul li:hover {
   margin-right: 25%,
 }
     
-
-
-.shopping-cart {
+.container{
     
-    background: #FFFFFF;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px #5E6977;
+}
 
-  }
-  /* Next, let’s style the first item, which is the title, by changing the height to 60px and giving it some basic styling, and the next three items which are the shopping cart products, will make them 120px height each and set them to display flex. */
-  
-  .title {
-    height: auto;
-    padding: 20px 30px;
-    color: #5E6977;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: -5%;
-    margin-left: 10px;
-  }
-   
-  .item {
-    padding: 20px 30px;
-    height: 120px;
-    display: flex;
-  }
-  .item2 {
-    width: 100%;
-  }
-   
-  .item:nth-child(3) {
-    border-top:  1px solid #E1E8EE;
-    border-bottom:  1px solid #E1E8EE;
-  }
 
 
 .delete-btn,
@@ -137,40 +114,6 @@ nav ul li:hover {
 /* Next, is the product image which needs a 50px right margin. */
 
 
-.image {
-  margin-right: 50px;
-  margin-top: -10%;
-}
-.image2 {
-    margin-top: 20%;
-    margin-right: 50px;
-    float:left;
-
-}
- 
-/* Let’s add some basic style to  product name and description. */
-.description {
-  padding-top: 50px;
-  top: 10%;
-  width: 100;
-  
-}
- 
-.description span {
-  display: block;
-  font-size: 14px;
-  color: #43484D;
-  font-weight: 400;
-}
- 
-.description span:first-child {
-  margin-bottom: 5px;
-}
-.description span:last-child {
-  font-weight: 300;
-  margin-top: 8px;
-  color: #86939E;
-}
 /* Then we need to add a quantity element, where we have two buttons for adding or removing product quantity. First, make the CSS and then we’ll make it work by adding some JavaScript. */
 
 
@@ -207,48 +150,5 @@ button:focus,
 input:focus {
   outline:0;
 }
-/* And last, which is the total price of the product. */
 
-.total-price {
-  width:100%;
-  text-align: center;
-  font-size: 16px;
-  color:black;
-  font-weight: 300;
 }
-/* Let’s also make it responsive by adding the following lines of code: */
-
-
-@media (max-width: 800px) {
-  .shopping-cart {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-  }
-  .item {
-    height: auto;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .image img {
-    width: 50%;
-  }
-  .quantity {
-    text-align: center;
-    margin: 6px 0;
-, 
-  }
-  
-  .description {
-    width: 100%;
-    text-align: center;
-    margin: 6px 0;
-    margin-top: 5%,
-  }
-  .buttons {
-    margin-right: 20px;
-  }
-}
-
-
-  
