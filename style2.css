@@ -8,27 +8,16 @@ body{
     margin: 0;
     padding: 0;
 }
-.header2 {
-    height: 51px;
-    padding-top: 18px;
-    padding-bottom: 22px;
-    text-align: center;
-    color: rgb(161, 159, 159);
-    background:rgb(223, 219, 219);
-    font-size: 12px;
-    font-family:'Source Sans Pro';
-    
-  }
-  .header_text2 {
-    text-align: center;
-    color: gray;
-  }
+
+
   .container {
       text-align: center;
     
   }
   
-
+p{
+    text-align: center,
+}
 
 
 nav {
@@ -69,26 +58,25 @@ nav ul li:hover {
     
 
 
-shopping-cart {
-    width: 750px;
-    height: 423px;
-    margin: 80px auto;
+.shopping-cart {
+    
     background: #FFFFFF;
-    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
     border-radius: 6px;
-   
     display: flex;
     flex-direction: column;
+    border-bottom: 1px #5E6977;
+
   }
   /* Next, let’s style the first item, which is the title, by changing the height to 60px and giving it some basic styling, and the next three items which are the shopping cart products, will make them 120px height each and set them to display flex. */
   
   .title {
-    height: 60px;
-    border-bottom: 1px solid #E1E8EE;
+    height: auto;
     padding: 20px 30px;
     color: #5E6977;
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: -5%;
+    margin-left: 10px;
   }
    
   .item {
@@ -96,36 +84,38 @@ shopping-cart {
     height: 120px;
     display: flex;
   }
+  .item2 {
+    width: 100%;
+  }
    
   .item:nth-child(3) {
     border-top:  1px solid #E1E8EE;
     border-bottom:  1px solid #E1E8EE;
   }
-.buttons {
-  position: relative;
-  padding-top: 30px;
-  margin-right: 60px;
-}
+
+
 .delete-btn,
 .like-btn {
   display: inline-block;
   Cursor: pointer;
 }
 .delete-btn {
-  width: 18px;
-  height: 17px;
-  background: url(&quot;delete-icn.svg&quot;) no-repeat center;
+  width: 30px;
+  position: absolute;
+  height: 30px;
+  background: url('images/delete.svg') no-repeat center;
+  left: 220px;
+  bottom: 120px;
 }
  
 .like-btn {
   position: absolute;
-  top: 9px;
-  left: 15px;
-  background: url('twitter-heart.png');
+  background: url('images/heart-icon.png');
   width: 60px;
   height: 60px;
-  background-size: 2900%;
   background-repeat: no-repeat;
+  bottom:95px;
+  right: 350px;
 }
 /* We set class “is-active” for when we click the button to animate it using jQuery, but this is for the next section. */
 
@@ -149,13 +139,21 @@ shopping-cart {
 
 .image {
   margin-right: 50px;
+  margin-top: -10%;
+}
+.image2 {
+    margin-top: 20%;
+    margin-right: 50px;
+    float:left;
+
 }
  
 /* Let’s add some basic style to  product name and description. */
 .description {
-  padding-top: 10px;
-  margin-right: 60px;
-  width: 115px;
+  padding-top: 50px;
+  top: 10%;
+  width: 100;
+  
 }
  
 .description span {
@@ -191,10 +189,10 @@ shopping-cart {
 }
  
 button[class*=btn] {
-  width: 30px;
-  height: 30px;
+  width: auto;
+  height: auto;
   background-color: #E1E8EE;
-  border-radius: 6px;
+  border-radius: ;
   border: none;
   cursor: pointer;
 }
@@ -212,11 +210,10 @@ input:focus {
 /* And last, which is the total price of the product. */
 
 .total-price {
-  width: 83px;
-  padding-top: 27px;
+  width:100%;
   text-align: center;
   font-size: 16px;
-  color: #43484D;
+  color:black;
   font-weight: 300;
 }
 /* Let’s also make it responsive by adding the following lines of code: */
@@ -236,12 +233,17 @@ input:focus {
   .image img {
     width: 50%;
   }
-  .image,
-  .quantity,
+  .quantity {
+    text-align: center;
+    margin: 6px 0;
+, 
+  }
+  
   .description {
     width: 100%;
     text-align: center;
     margin: 6px 0;
+    margin-top: 5%,
   }
   .buttons {
     margin-right: 20px;
