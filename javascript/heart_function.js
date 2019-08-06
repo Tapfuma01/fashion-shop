@@ -14,7 +14,7 @@
                                 $input.val(value);
                         
                                 });
-                        
+                         
                                 $('.plus-btn').on('click', function(e) {
                                     e.preventDefault();
                                     var $this = $(this);
@@ -33,3 +33,7 @@
                               $('.like-btn').on('click', function() {
                                 $(this).toggleClass('is-active');
                               });
+     
+
+
+

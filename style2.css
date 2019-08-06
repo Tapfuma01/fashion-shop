@@ -10,7 +10,6 @@ body{
     padding: 0;
 }
 
-
   .container1{
       text-align: center;
       margin-top: 20%;
@@ -21,12 +20,12 @@ p{
     text-align: center,
 }
 .header-text {
-    width: 100%;
-    height: 25px;
+    width: auto;
+    height: auto;
     background-color:white;
     color:black;
     margin:0px;
-    padding: 0px;
+    padding: -85;
     font-size: 12px;
     font-family:'Source Sans Pro';
   }
@@ -49,7 +48,7 @@ p{
  }
 nav {
     overflow: hidden;
-    position: relative;
+    position: sticky;
     top: 0;
     width: 100%;
     color:black;
@@ -62,26 +61,30 @@ nav {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  padding: 25%,
+ 
 }
 .nav a:hover {
     background-color: #ddd;
     color: black;
+    margin: 0%;
+    padding: 0%;
 }
 
 .navbar.navbar-nav {
     display: inline-block;
     float: none;
+
 }
 
 
 .navbar .navbar-brand {
   color: black;
   text-align: center;
-  margin-right: 25%,
 }
     
-
+.bg{
+    margin-top: -20px;
+}
     
 
 
@@ -119,7 +122,7 @@ nav {
   bottom:95px;
   right: 350px;
 }
-/* We set class “is-active” for when we click the button to animate it using jQuery, but this is for the next section. */
+
 
 
 
@@ -136,11 +139,6 @@ nav {
   50%  { background-position: right; }
   100% { background-position: right; }
 }
-/* Next, is the product image which needs a 50px right margin. */
-
-
-/* Then we need to add a quantity element, where we have two buttons for adding or removing product quantity. First, make the CSS and then we’ll make it work by adding some JavaScript. */
-
 
 .quantity {
   padding-top: 20px;
@@ -160,7 +158,6 @@ button[class*=btn] {
   width: auto;
   height: auto;
   background-color: #E1E8EE;
-  border-radius: ;
   border: none;
   cursor: pointer;
 }
@@ -177,4 +174,3 @@ input:focus {
 }
 
 
-}
