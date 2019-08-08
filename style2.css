@@ -1,7 +1,6 @@
 
 body{ 
-    text-align: center;
-    
+    text-align: center;  
 }
 
 
@@ -12,8 +11,7 @@ body{
 
   .container1{
       text-align: center;
-      margin-top: 20%;
-    
+      margin-top: 20%; 
   }
   
 p{
@@ -160,6 +158,7 @@ button[class*=btn] {
   background-color: #E1E8EE;
   border: none;
   cursor: pointer;
+  float: left;
 }
 .minus-btn img {
   margin-bottom: 3px;
