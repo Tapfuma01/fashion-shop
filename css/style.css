@@ -404,18 +404,13 @@ margin-top: 4rem;
     }
     
       .container {
-      width: 100%;
+  
       height: 945px;
       background-color: var(--black-three);
    }
    .container1 {
-     width: 100%;
      background-color:white;
      position: relative;
-   }
-   .page-footer {
-    width: 1900px;
-    height: 425px;
    }
    
    .blazer {
@@ -427,7 +422,7 @@ margin-top: 4rem;
 #test1::before,
 #test2::before {
   display: block;
-  content: " ";
+  content: " "; 
   margin-top: -65px;
   height: 65px;
   visibility:unset;
