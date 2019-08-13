@@ -19,8 +19,11 @@ h3 {
   text-align: center;
   font-family: 'Source Sans Pro' bold 25px;
   color:black;
-  padding-top:60px;
-  padding-bottom:92px;
+  padding-top: 25%,
+
+}
+.ourblog {
+  margin-top: 25%;
 }
 h5 {
  padding-top: 25%;
@@ -32,19 +35,13 @@ h5 {
 }
 
 h6{
-  width: 339px;
-  height: 23px;
+  
   font-family: 'SourceSansPro';
-  font-size: 100px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.92;
-  letter-spacing: normal;
-  text-align: left;
+  font-size: 500px;
+  text-align: center;
   color: var(--black-three);
   text-align: center;
-  padding-top:20%;
+  padding-top:25%;
 }
 
 

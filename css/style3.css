@@ -10,7 +10,7 @@
     background-color: #7EC855;
     font-family: 'Roboto', sans-serif;
   }
-  /* Great, now let’s make our Shopping Cart to be 750×423 and style it to look nice. Notice that we are using flexbox, so we set it to display flex and make the flex direction column, because by default the flex direction is set as row. */
+ 
   
   .shopping-cart {
     width: 750px;
@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
   }
-  /* Next, let’s style the first item, which is the title, by changing the height to 60px and giving it some basic styling, and the next three items which are the shopping cart products, will make them 120px height each and set them to display flex. */
+  
   
   .title {
     height: 60px;
@@ -70,31 +70,24 @@
   background-size: 2900%;
   background-repeat: no-repeat;
 }
-/* We set class “is-active” for when we click the button to animate it using jQuery, but this is for the next section. */
 
 
 
-.is-active {
-  animation-name: animate;
-  animation-duration: .8s;
-  animation-iteration-count: 1;
-  animation-timing-function: steps(28);
-  animation-fill-mode: forwards;
-}
+
  
 @keyframes animate {
   0%   { background-position: left;  }
   50%  { background-position: right; }
   100% { background-position: right; }
 }
-/* Next, is the product image which needs a 50px right margin. */
+
 
 
 .image {
   margin-right: 50px;
 }
  
-/* Let’s add some basic style to  product name and description. */
+
 .description {
   padding-top: 10px;
   margin-right: 60px;
@@ -116,7 +109,7 @@
   margin-top: 8px;
   color: #86939E;
 }
-/* Then we need to add a quantity element, where we have two buttons for adding or removing product quantity. First, make the CSS and then we’ll make it work by adding some JavaScript. */
+
 
 
 .quantity {
@@ -152,7 +145,7 @@ button:focus,
 input:focus {
   outline:0;
 }
-/* And last, which is the total price of the product. */
+
 
 .total-price {
   width: 83px;
@@ -162,7 +155,7 @@ input:focus {
   color: #43484D;
   font-weight: 300;
 }
-/* Let’s also make it responsive by adding the following lines of code: */
+
 
 
 @media (max-width: 800px) {
