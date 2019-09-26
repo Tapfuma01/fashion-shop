@@ -7,77 +7,68 @@
         <script src="main.js" async></script>
     </head>
     <body>
-        <header class="main-header">
-            <nav class="main-nav nav">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="store.html">STORE</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                </ul>
-            </nav>
-            <h1 class="band-name band-name-large">The Generics</h1>
-        </header>
+       
         <section class="container content-section">
-            <h2 class="section-header">MUSIC</h2>
+            
             <div class="shop-items">
                 <div class="shop-item">
-                    <span class="shop-item-title">Album 1</span>
-                    <img class="shop-item-image" src="Images/Album 1.png">
+                    <p class="shop-item-title">LASER Blue-flops</p>
+                    <img class="shop-item-image img-fluid" src="Images/flip-flops.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$12.99</span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    <p class="shop-item-price">R400</p>
+                    <p>Praesent eget sapien ipsum. Ut egestas gravida orci. Aenean pellentesque, dui nec venenatis feugiat, metus nunc porttitor enim, quis blandit magna ligula quis leo.</p>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div> 
+                
                 <div class="shop-item">
-                    <span class="shop-item-title">Album 2</span>
-                    <img class="shop-item-image" src="Images/Album 2.png">
+                    <p class="shop-item-title">LASER Darkblue-Sneakes</p>
+                    <img class="shop-item-image img-fluid" src="Images/newstuff.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$14.99</span>
+                        <p class="shop-item-price">R1200</p>
+                        <p>Praesent eget sapien ipsum. Ut egestas gravida orci. Aenean pellentesque, dui nec venenatis feugiat, metus nunc porttitor enim, quis blandit magna ligula quis leo.</p>
                         <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title">Album 3</span>
-                    <img class="shop-item-image" src="Images/Album 3.png">
+                    <p class="shop-item-title"> LASER Blue-Sneakers</p>
+                    <img class="shop-item-image img-fluid" src="Images/shoesblues.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$9.99</span>
+                        <p class="shop-item-price">R1200</p>
+                        <p>Praesent eget sapien ipsum. Ut egestas gravida orci. Aenean pellentesque, dui nec venenatis feugiat, metus nunc porttitor enim, quis blandit magna ligula quis leo.</p>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title">Album 4</span>
-                    <img class="shop-item-image" src="Images/Album 4.png">
+                    <p class="shop-item-title">AFICANA Italiana</p>
+                    <img class="shop-item-image img-fluid" src="Images/AFRICAN Italiana.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$19.99</span>
+                        <p class="shop-item-price">R1500</p>
+                        <p>Praesent eget sapien ipsum. Ut egestas gravida orci. Aenean pellentesque, dui nec venenatis feugiat, metus nunc porttitor enim, quis blandit magna ligula quis leo.</p>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="container content-section">
-            <h2 class="section-header">MERCH</h2>
-            <div class="shop-items">
-                <div class="shop-item">
-                    <span class="shop-item-title">T-Shirt</span>
-                    <img class="shop-item-image" src="Images/Shirt.png">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$19.99</span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="shop-item">
-                    <span class="shop-item-title">Coffee Cup</span>
-                    <img class="shop-item-image" src="Images/Cofee.png">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$6.99</span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="container content-section">
-            <h2 class="section-header">CART</h2>
-            <div class="cart-row">
+        
+       <!-- Button trigger modal-->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalCart">Launch modal</button>
+
+<!-- Modal: modalCart -->
+<div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">MY CART</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <!--Body-->
+      <div class="modal-body">
+	 <div class="cart-row">
                 <span class="cart-item cart-header cart-column">ITEM</span>
                 <span class="cart-price cart-header cart-column">PRICE</span>
                 <span class="cart-quantity cart-header cart-column">QUANTITY</span>
@@ -86,31 +77,19 @@
             </div>
             <div class="cart-total">
                 <strong class="cart-total-title">Total</strong>
-                <span class="cart-total-price">$0</span>
+                <span class="cart-total-price">R0</span>
             </div>
             <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
         </section>
-        <footer class="main-footer">
-            <div class="container main-footer-container">
-                <h3 class="band-name">The Generics</h3>
-                <ul class="nav footer-nav">
-                    <li>
-                        <a href="https://www.youtube.com" target="_blank">
-                            <img src="Images/YouTube Logo.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.spotify.com" target="_blank">
-                            <img src="Images/Spotify Logo.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com" target="_blank">
-                            <img src="Images/Facebook Logo.png">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+       
+      <!--Footer-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+        <button class="btn btn-primary">Checkout</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal: modalCart -->
     </body>
 </html>
