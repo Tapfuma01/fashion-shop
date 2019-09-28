@@ -4,15 +4,6 @@ body,
 .view {
   height: 100%; }
 
-/* Full Page Carousel itself*/
-.carousel {
-  height: 100%; }
-  .carousel .carousel-inner {
-    height: 100%; }
-    .carousel .carousel-inner .carousel-item,
-    .carousel .carousel-inner .active {
-      height: 100%; }
-
 /* Navbar animation */
 .navbar {
   background-color: rgba(0, 0, 0, 0.2);
@@ -38,7 +29,23 @@ body,
 .nav-item{
   color: #ffffff;
   font-family: inherit;
-  font-size: 1rem;
-  justify-content: 
+  font-size: 1rem; 
  
+}
+.container{
+ margin-top: 5%;
+}
+
+.fashion {
+  font-family: Dosis;
+  font-size: 50px;
+  font-style: bold;
+  font-stretch: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffff;
+  font-family: 'Source Sans Pro';
+  text-size-adjust: inherit;
+  margin-top: 20%;
 }
