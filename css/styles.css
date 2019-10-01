@@ -1,12 +1,23 @@
-/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+
+.view{
+    background: url(https://image.freepik.com/free-vector/gumshoes-sketch-grunge_98292-4630.jpg)no-repeat center center;
+    background-size: cover;
+}
+.view1{
+  background: url(https://image.freepik.com/free-photo/green-sneakers-sport-running-shoe-isolated-white_39665-137.jpg)no-repeat center center;
+    background-size: cover;
+}
 html,
 body,
-.view {
-  height: 100%; }
+header,
+.view,.view1 {
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 /* Navbar animation */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.9);
   text-align: center; 
 
 }
@@ -33,7 +44,7 @@ body,
  
 }
 .container{
- margin-top: 5%;
+ 
 }
 
 .fashion {
@@ -47,10 +58,20 @@ body,
   color: #ffff;
   font-family: 'Source Sans Pro';
   text-size-adjust: inherit;
-  margin-top: 17%;
+  
 }
 .button {
   text-align: center;
   border-radius: 50%;
   margin-top: 4%;
+}
+.main{
+  
+}
+.instagram{
+  margin: 5px,
+}
+.various{
+  text-align: center;
+  margin-top: 10%;
 }
