@@ -9,6 +9,7 @@ header,
 .view,.view1 {
   height: 100%;
   font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
 }
 
 /* Navbar animation */
@@ -27,7 +28,7 @@ header,
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #1C2331; } }
+    background-color:black } }
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
@@ -39,14 +40,12 @@ header,
   font-size: 1rem; 
  
 }
-h1{
-  font-size: 105px;
- 
+h2{
+  font-size: 120px;
 }
 
 .fashion {
   font-family: Dosis;
-  font-size: 100px;
   font-style: bold;
   font-stretch: normal;
   line-height: 0.96;
@@ -59,10 +58,11 @@ h1{
 }
 .button {
   text-align: center;
-  border-radius: 50%;
-  margin-top: 4%;
+  border-radius: 100%;
+  margin-top: 6%;
 }
 .main{
+  width: 100%;
   
 }
 .instagram{
@@ -70,7 +70,8 @@ h1{
 }
 .various{
   text-align: center;
-  margin-top: 10%;
+  margin-top: 13%;
+  color: #fff;
 }
 .shop{
   height:400px;
@@ -78,7 +79,7 @@ h1{
 }
 
 .nav-link{
-  color: black;
+  color:white;
   font-weight: bold;
   font-size: 20px
 }
@@ -91,4 +92,12 @@ h1{
 .baton{
   margin-top:5%;
 }
-
+.offers{
+  color: white;
+}
+.mainbg{
+ width: auto;
+}
+.africana{
+font-size: 50px
+}
