@@ -1,9 +1,7 @@
 
 .view{
-  background: url(https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_960_720.jpg)no-repeat center center;
-    /* background:url(https://cdn.pixabay.com/photo/2014/04/03/11/08/shoe-311826_960_720.png)no-repeat center; */
-  background-size: cover;
-  
+    background:url(https://cdn.pixabay.com/photo/2015/08/04/09/00/backdrop-874452_960_720.jpg)no-repeat center;
+    background-size: cover;
 }
 html,
 body,
