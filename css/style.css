@@ -1,11 +1,9 @@
 
 .view{
-    background: url(https://image.freepik.com/free-vector/gumshoes-sketch-grunge_98292-4630.jpg)no-repeat center center;
-    background-size: cover;
-}
-.view1{
-  background: url(https://image.freepik.com/free-photo/green-sneakers-sport-running-shoe-isolated-white_39665-137.jpg)no-repeat center center;
-    background-size: cover;
+  background: url(https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_960_720.jpg)no-repeat center center;
+    /* background:url(https://cdn.pixabay.com/photo/2014/04/03/11/08/shoe-311826_960_720.png)no-repeat center; */
+  background-size: cover;
+  
 }
 html,
 body,
@@ -38,18 +36,19 @@ header,
   background-color: #1C2331; }
 
 .nav-item{
-  color: #ffffff;
+  color:black;
   font-family: inherit;
   font-size: 1rem; 
  
 }
-.container{
+h1{
+  font-size: 105px;
  
 }
 
 .fashion {
   font-family: Dosis;
-  font-size: 50px;
+  font-size: 100px;
   font-style: bold;
   font-stretch: normal;
   line-height: 0.96;
@@ -75,3 +74,23 @@ header,
   text-align: center;
   margin-top: 10%;
 }
+.shop{
+  height:400px;
+  background: red;
+}
+
+.nav-link{
+  color: black;
+  font-weight: bold;
+  font-size: 20px
+}
+
+.whit{
+  height: 40px;
+  background: #fff;
+}
+
+.baton{
+  margin-top:5%;
+}
+
