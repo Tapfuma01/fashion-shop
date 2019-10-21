@@ -1,6 +1,6 @@
 
 .view{
-    background:url(https://cdn.pixabay.com/photo/2015/08/04/09/00/backdrop-874452_960_720.jpg)no-repeat center;
+   background:url(https://cdn.pixabay.com/photo/2015/11/18/07/04/drip-1048722_960_720.jpg);
     background-size: cover;
 }
 html,
@@ -14,8 +14,10 @@ header,
 
 /* Navbar animation */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.9);
-  text-align: center; 
+
+  margin-top: -10px;
+  background-color: #1C2331;
+ 
 
 }
   ul.navbar-nav{
@@ -34,14 +36,16 @@ header,
 .page-footer {
   background-color: #1C2331; }
 
-.nav-item{
+.nav-link{
   color:black;
-  font-family: inherit;
-  font-size: 1rem; 
+
  
 }
 h2{
   font-size: 120px;
+}
+h5{
+  font-size:10px;
 }
 
 .fashion {
@@ -97,7 +101,17 @@ h2{
 }
 .mainbg{
  width: auto;
+ background:url(//images/leather-boots-shoes1.jpg);
 }
 .africana{
 font-size: 50px
+}
+.jumbotron{
+  background: url(https://cdn.pixabay.com/photo/2016/06/20/21/46/sport-shoe-1470061_960_720.jpg);
+  background-size: cover;
+  height: 450px;
+}
+.banner{
+  background:grey;
+  margin-top: -2%;;
 }
