@@ -51,15 +51,18 @@ ul {
     right:0;
     top:100%;
     z-index: 1;
-    background-color: white;
+    background-color:rgb(127, 194, 185);
     padding: 20px;
     min-height: 400px;
-    min-width: 300px;
+    min-width: 600px;
+    
+
 }
 
 .hero-content {
     margin-top: 80px;
     color: white;
+  
 }
 .hero-content form {
     position: relative;
@@ -88,6 +91,7 @@ ul {
 .main-bar {
     padding: 10px 0;
     background: black;
+    font-size: 18px;
   
 }
 
@@ -131,6 +135,7 @@ ul {
     text-align: center;
     border: 1px solid #e1e1e1;
     background: white;
+    font-size: 60px;
 }
 @media (min-width: 550px) {
     .card {
@@ -161,4 +166,7 @@ div.footer-copyright {
 display: block;
 margin-bottom: 10px;
 text-decoration: none;
+}
+#card-content{
+    font-size: 80px;
 }
