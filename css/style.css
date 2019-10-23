@@ -1,31 +1,36 @@
-
+body{
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+}
 .view{
-   background:url(https://images.pexels.com/photos/2055389/pexels-photo-2055389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+   background:grey;
     background-size: cover;
 }
 html,
-body,
 header,
 .view,.view1 {
   height: 100%;
   font-family: 'Source Sans Pro', sans-serif;
   width: 100%;
+
 }
 
 /* Navbar animation */
-.navbar {
-
-  margin-top: -10px;
-  background-color: #1C2331;
- 
-
+nav.navbar {
+  margin-top: 35px;
+  font-size: 10px;
+}
+nav.navbar.contact{
+  margin: 0px;
+  
 }
   ul.navbar-nav{
     margin-left: auto;
   }
 
 .top-nav-collapse {
-  background-color: #1C2331; }
+  background-color:rgba(0,0,0,0.5); }
 
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
@@ -50,7 +55,6 @@ h5{
 
 .fashion {
   font-family: Dosis;
-  font-style: bold;
   font-stretch: normal;
   line-height: 0.96;
   letter-spacing: normal;
@@ -58,6 +62,7 @@ h5{
   color: #ffff;
   font-family: 'Source Sans Pro';
   text-size-adjust: inherit;
+  
   
 }
 .button {
@@ -84,8 +89,8 @@ h5{
 
 .nav-link{
   color:white;
+  font-size: 16px;
   font-weight: bold;
-  font-size: 20px
 }
 
 .whit{
@@ -107,11 +112,26 @@ h5{
 font-size: 50px
 }
 .jumbotron{
-  background: url(https://cdn.pixabay.com/photo/2016/06/20/21/46/sport-shoe-1470061_960_720.jpg);
-  background-size: cover;
-  height: 450px;
+  background-color:black ;
+  background-size:cover;
+  width: 100%;
+  height: 75%;
 }
 .banner{
   background:grey;
-  margin-top: -2%;;
+  margin-top: -1%;;
 }
+button.mbtn {
+  padding:0.8em 1em;
+  font-size:0.8em;
+  border:0;
+  cursor:pointer;
+  margin:1em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+.footer .menu a{
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  }

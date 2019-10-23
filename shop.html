@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Courses to Shopping Cart</title>
+    <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/cart/normalize.css">
+    <link rel="stylesheet" href="css/cart/skeleton.css">
+    <link rel="stylesheet" href="css/cart/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    
+   
+</head>
+<body>
+        <div class="container-fluid black py-1"style="background:url(images/backdrop1.jpg);">
+                <div class="page-header text-center">
+                  <div class="row">
+                    <div class="col-md-4">
+                        <select class="left-tags">
+                            <option value="english">ENG</option>
+                            <option value="afrikaans">AF</option>
+                            <option value="xhosa">XH</option>
+                            <option value="zulu">ZU</option>
+                          </select>
+                      
+                          <select class="left-tags1">
+                              <option value="rand">ZAR</option>
+                              <option value="us dollars">US</option>
+                              <option value="chinese yen">YEN</option>
+                              <option value=euro>EUR</option>
+                            </select>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="white-text">FREE SHIPPING FOR STANDARD ORDER OVER R100</p>      
+                    </div>
+                    <div class="col-md-4">
+                        <div class= "topicons white-text">
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                      
+                        </div>  
+                    </div>
+                  </div>
+                 
+                </div>      
+              </div>
+              <nav class="navbar contact black navbar-expand-lg navbar-blue scrolling-navbar"style="background:url(images/backdrop1.jpg);">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse transparent" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                          <li class="nav-item">
+                              <a class="nav-link white-text" href="shopping1.html"><i class="fas fa-search"></i></a>
+                            </li>
+                        <li class="nav-item active">
+                          <a class="nav-link white-text" href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link white-text" href="shopping1.html">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link white-text" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link font-weight-bold text-success" href="#">A F R I C A N A</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link white-text" href="#">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link white-text" href="#  ">BLOG</a>
+                          <li class="nav-item">
+                            <a class="nav-link white-text" href="#">LOOKBOOK</a>
+                          </li>
+                          <li class=" nav-item submenu">
+                                <img src="img/cart.png" id="img-cart">
+                                
+                                <div id="shopping-cart">
+                                        <table id="cart-content" class="u-full-width">
+                                            <thead>
+                                                <tr>
+                                                    <th>Image</th>
+                                                    <th>Name</th>
+                                                    <th>Price</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+    
+                                        <a href="#" id="clear-cart" class="button u-full-width">Clear Cart</a>
+                                </div>
+                        </li>
+                        <li class="nav-item active">
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+
+
+
+    <div id="hero"style="background:url(images/backdrop1.jpg)center;">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="hero-content text-center">
+                                <h1>SHOP NOW</h1>
+                                <p>Home/Shop</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-bar">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icon icon1">
+                        <p<br>
+                        </p>
+                    </div>
+                    <div class="four columns icon icon2">
+                        <p><br>
+                       </p>
+                    </div>
+                    <div class="four columns icon icon3">
+                        <p><br>
+                    </p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="courses-list" class="container">
+        <div class="row py-5">
+            <div class="col-md-5">
+                <img src="images/male-shoes-ankle-boots.jpg" class="course-image u-full-width">
+            </div>
+            <div class="col-md-7">
+                    <h4>Africana Italiana</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.</p>
+                    <p class="price"> <span class="u-pull-center ">$15</span></p>
+                    <a href="#" class="button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="images/shoesblues.jpg" class="course-image u-full-width">
+            </div>
+            <div class="col-md-7">
+                    <h4>Africana Italiana</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.</p>
+                    <p class="price"><span class="u-pull-center ">$15</span></p>
+                    <a href="#" class="button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+            </div>
+        </div>
+            <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/newstuff.jpg" class="course-image u-full-width">
+                    </div>
+                    <div class="col-md-7">
+                            <h4>Africana Italiana</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.</p>
+                            <p class="price"> <span>$15</span></p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/men-s-women-s-unisex-sandals_1339-70873.jpg" class="course-image u-full-width">
+                    </div>
+                    <div class="col-md-7">
+                            <h4>Africana Italiana</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.</p>
+                            <p class="price"> <span>$15</span></p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+                    </div>
+            </div>
+    </div>
+        
+  <nav aria-label="Page navigation ">
+        <ul class="pagination pg-blue-right pagination-lg justify-content-end font-weight-bold">
+          <li class="page-item">
+            <a href="shopping3.html" class="page-link" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item"><a href="shopping1.html" class="page-link">1</a></li>
+          <li class="page-item"><a href="shopping2.html" class="page-link">2</a></li>
+          <li class="page-item"><a href="shopping3.html" class="page-link">3</a></li>
+          <li class="page-item">
+            <a href="shopping2.html"  class="page-link" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    <footer class="page-footer expand-lg font-auto black">
+
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left">
+          
+              <!-- Grid row -->
+              <div class="row">
+          
+                <!-- Grid column -->
+                <div class="col-md-2 py-5 mx-auto">
+          
+                  <!-- Links -->
+                  <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-success">A F R I C A N A</h5>
+          
+                  <ul class="list-unstyled">
+                    
+                      <a href="#!"  class="fas fa-home mr-3">60 Townsend Street Goodwood</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="fas fa-phone mr-3">+27623369814</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="fas fa-envelope mr-3">enosmhundwa@gmail.com</a>
+                    </li>
+                  </ul>
+          
+                </div>
+                <!-- Grid column -->
+          
+                <hr class="clearfix w-100 d-md-none">
+          
+                <!-- Grid column -->
+                <div class="col-md-2 py-5 mx-auto">
+          
+                  <!-- Links -->
+                  <h5 class="font-weight-bold text-uppercase mt-3 mb-4 grey-text">LINKS</h5>
+          
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!">Products</a>
+                    </li>
+                    <li>
+                      <a href="#!">Featured</a>
+                    </li>
+                    <li>
+                      <a href="#!">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="#!">Blog</a>
+                    </li>
+                  </ul>
+          
+                </div>
+                <!-- Grid column -->
+          
+                <hr class="clearfix w-100 d-md-none">
+          
+                <!-- Grid column -->
+                <div class="col-md-2 py-5 mx-auto">
+          
+                  <!-- Links -->
+                  <h5 class="font-weight-bold text-uppercase mt-3 mb-4 grey-text">SHOP</h5>
+          
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!">About Us</a>
+                    </li>
+                    <li>
+                      <a href="#!">Shipping</a>
+                    </li>
+                    <li>
+                      <a href="#!">Contact</a>
+                    </li>
+                    <li>
+                      <a href="#!">Support</a>
+                    </li>
+                  </ul>
+          
+                </div>
+                <!-- Grid column -->
+          
+                <hr class="clearfix w-100 d-md-none">
+          
+                <!-- Grid column -->
+                <div class="col-md-6 black py-5 instagram mx-auto">
+          
+                  <!-- Links -->
+                  <h5 class="font-weight-bold text-uppercase mt-3 mb-4 grey-text">Instagram</h5>
+                
+                <div class="row">
+                  <div class="col-sm-3">
+                      <img class="img-fluid" src="images/fashion-shoes-sneakers.jpg" alt="streetwear-shoes">
+                  </div>
+                  <div class="col-sm-3">
+                      <img class="img-fluid" src="https://picjumbo.com/wp-content/uploads/men-streetwear-shoes-free-photo-2210x1473.jpg" alt="streetwear-shoes">
+                  </div>
+                  <div class="col-sm-3">
+                      <img class="img-fluid" src="images/paper-near-male-child-shoes.jpg" alt="streetwear-shoes">
+                  </div>
+                  <div class="col-sm-3">
+                      <img class="img-fluid" src="images/men-shoes_.jpg" alt="streetwear-shoes">
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img class="img-fluid" src="images/brown-leather-shoes copy.jpg" alt="streetwear-shoes">
+                    </div>
+                    <div class="col-sm-3">
+                        <img class="img-fluid" src="images/pexels-photo-3.jpeg" alt="streetwear-shoes">
+                    </div>
+                    <div class="col-sm-3">
+                        <img class="img-fluid" src="images/male-shoes-ankle-boots.jpg" alt="streetwear-shoes">
+                    </div>
+                    <div class="col-sm-3">
+                        <img class="img-fluid" src="images/red-leather-shoes.jpg" alt="streetwear-shoes">
+                    </div>
+                  </div>
+                  
+              </div>
+                <!-- Grid column -->
+          
+              </div>
+              <!-- Grid row -->
+          
+            </div>
+            <!-- Footer Links -->
+          <br>
+          <br>
+          <br>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 ">© 2019 Copyright:
+              <a href=""> Designed by <a class="text-primary">tapfuma_enos</a>.All rights reserved</a>
+            </div>
+            <!-- Copyright -->
+          
+          </footer>
+          <!-- Footer -->
+          
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
