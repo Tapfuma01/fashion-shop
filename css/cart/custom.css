@@ -44,7 +44,7 @@ ul {
 
 .submenu #shopping-cart{
     display: none;
-    font-size: 100px;
+    
 }
 .submenu:hover #shopping-cart{
     display: block;
@@ -168,6 +168,14 @@ display: block;
 margin-bottom: 10px;
 text-decoration: none;
 }
-#card-content{
+.content{
     font-size: 80px;
+}
+.mycart th{
+    font-size: 20px;
+    color:black;
+}
+.mycart td{
+    font-size: 20px;
+    color:black;
 }
